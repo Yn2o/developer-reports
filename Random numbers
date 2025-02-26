@@ -1,0 +1,7 @@
+def generer_nombre():
+    print("Générateur de nombre aléatoire!")
+    nombre = random.randint(1, 100)
+    print(f"Le nombre généré est : {nombre}")
+
+if __name__ == "__main__":
+    generer_nombre()
