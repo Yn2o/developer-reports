@@ -1,0 +1,11 @@
+def celsius_vers_fahrenheit(celsius):
+    return (celsius * 9/5) + 32
+
+def main():
+    print("Convertisseur de température : Celsius -> Fahrenheit")
+    celsius = float(input("Entrez une température en degrés Celsius : "))
+    fahrenheit = celsius_vers_fahrenheit(celsius)
+    print(f"{celsius}°C équivaut à {fahrenheit:.2f}°F")
+
+if __name__ == "__main__":
+    main()
