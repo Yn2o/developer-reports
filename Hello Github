@@ -1,0 +1,7 @@
+def main():
+    print("Bienvenue sur mon premier projet GitHub !")
+    nom = input("Comment tu t'appelles ? ")
+    print(f"Enchanté, {nom} ! J'espère que tu vas bien.")
+
+if __name__ == "__main__":
+    main()
